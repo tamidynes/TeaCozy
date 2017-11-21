@@ -56,3 +56,27 @@ main {
   z-index: 5;
   padding-bottom: 0px;
 }
+
+#featured_tea {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+#featured_tea h4 {
+  margin-top: 10px;
+}
+
+
+
+.tea1, .tea2, .tea3, .tea4, .tea5 {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.tea1 img, .tea2 img, .tea3 img, .tea4 img, .tea5 img {
+  width: 300px;
+  height: 200px;
+  margin: 0 14px;
+}
